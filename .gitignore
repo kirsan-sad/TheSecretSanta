@@ -1,0 +1,19 @@
+# ASP.NET Core
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.user
+*.vscode
+*.vs
+*.suo
+*.cache
+*.log
+node_modules/
+bower_components/
+
+# ReactJS
+node_modules/
+build/
+.env

@@ -1,12 +1,6 @@
 import React, { useState } from 'react'
 import { useUpdateWishMutation } from '../services/wishApi';
-
-const categories = [{id:1, label:"Hobby"}, 
-  {id:2, label:"Certificates"}, 
-  {id:3, label:"Souveners"}, 
-  {id:4, label:"Toys"}, 
-  {id:5, label:"Food"},
-  {id:6, label:"Gadget"}];
+import categories from '../utils/categories';
 
 const WishItem = ({wish}) => {
   const {id, fields} = wish;
